@@ -1,7 +1,6 @@
 import { RequestCodeModel } from "../models/requestModel";
 import CodeGenerator from "./codeGenerator";
 import { CodeResultModel } from "../models/codeModels";
-import { firstLetterUpper } from "../helpers/helper";
 
 export default class JavaHttpClient implements CodeGenerator {
     // depend on JDK8+ ,org.apache.httpcomponents httpmime 4.4+
